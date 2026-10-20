@@ -1,0 +1,8 @@
+# Só index.html, assets/ e img/ vão para o GitHub Pages
+*.py
+*.md
+*.json
+template.html
+partes/
+preview-*.png
+__pycache__/
