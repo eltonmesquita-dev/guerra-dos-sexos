@@ -143,3 +143,4 @@ nav.toc{position:static;max-height:none;background:var(--card);border:1px solid 
 .bar-row{grid-template-columns:1fr auto;gap:.3rem .8rem}.bar-track{grid-column:1/-1;grid-row:2}.chip{grid-row:1;grid-column:2}
 .ads{grid-template-columns:1fr}.ad-lab{min-height:0}.cols{height:200px;gap:8%;padding:1.5rem 2% 0}.tese{padding:1.5rem 1.2rem 1rem}.tese p{font-size:1.15rem}
 .timeline ol::before{left:.35rem}.timeline li{grid-template-columns:1fr;gap:.1rem;padding-left:1.6rem}.timeline li::before{left:0}.yr{text-align:left}.stat b{font-size:1.8rem}}
+.prose blockquote{margin:1.6rem 0;padding:.9rem 1.2rem;border-left:4px solid currentColor;background:rgba(127,127,127,.08);font-style:italic}.prose blockquote p{margin:0}
