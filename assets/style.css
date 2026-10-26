@@ -150,3 +150,9 @@ nav.toc{position:static;max-height:none;background:var(--card);border:1px solid 
 .cols.many .col em{font-size:.98rem}.cols.many .col small{font-size:.72rem;width:100%;text-align:center;line-height:1.15;overflow-wrap:anywhere}
 .cols.many+.note,.cols.many+.src{margin-top:3.4rem}
 @media(max-width:700px){.cols.many{gap:.5%}.cols.many .col em{font-size:.72rem}.cols.many .col small{font-size:.58rem}}
+/* tabelas em markdown (capítulo 4): rolam na horizontal em telas estreitas */
+.prose table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;border-collapse:collapse;margin:1.4rem 0;font:500 .86rem/1.45 var(--sans)}
+.prose th,.prose td{padding:.55rem .7rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;min-width:7.5rem}
+.prose th{border-bottom:2px solid var(--ink);font-weight:700}
+.prose,.prose .sec{min-width:0}.prose table{width:100%;max-width:calc(100vw - 2.4rem)}
+@media(min-width:900px){.prose table{max-width:100%}}
