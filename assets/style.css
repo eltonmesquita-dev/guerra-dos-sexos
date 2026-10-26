@@ -144,3 +144,9 @@ nav.toc{position:static;max-height:none;background:var(--card);border:1px solid 
 .ads{grid-template-columns:1fr}.ad-lab{min-height:0}.cols{height:200px;gap:8%;padding:1.5rem 2% 0}.tese{padding:1.5rem 1.2rem 1rem}.tese p{font-size:1.15rem}
 .timeline ol::before{left:.35rem}.timeline li{grid-template-columns:1fr;gap:.1rem;padding-left:1.6rem}.timeline li::before{left:0}.yr{text-align:left}.stat b{font-size:1.8rem}}
 .prose blockquote{margin:1.6rem 0;padding:.9rem 1.2rem;border-left:4px solid currentColor;background:rgba(127,127,127,.08);font-style:italic}.prose blockquote p{margin:0}
+
+/* colunas com muitas barras (ex.: 8 capitais) */
+.cols.many{gap:1.2%;padding:1.5rem 0 0}.cols.many .col{min-width:0}.cols.many .colbar{max-width:64px}
+.cols.many .col em{font-size:.98rem}.cols.many .col small{font-size:.72rem;width:100%;text-align:center;line-height:1.15;overflow-wrap:anywhere}
+.cols.many+.note,.cols.many+.src{margin-top:3.4rem}
+@media(max-width:700px){.cols.many{gap:.5%}.cols.many .col em{font-size:.72rem}.cols.many .col small{font-size:.58rem}}
